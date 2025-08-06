@@ -1,7 +1,4 @@
-"""
-Base configuration for ERa Attack
-Note: This contains default parameters only, not optimal values
-"""
+
 
 import os
 import json
@@ -177,4 +174,5 @@ class Config:
                     setattr(obj, key, value)
 
 # Global configuration instance
+
 default_config = Config()

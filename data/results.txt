@@ -1,0 +1,8 @@
+Condition,Classification Accuracy (%),Misclassification Rate (%),Targeted Success Rate (%),p-value
+No Attack,97.8 ± 0.5 [97.0, 98.6],2.2 ± 0.5 [1.4, 3.0],--,--
+Random Noise,75.2 ± 1.8 [73.4, 77.0],24.8 ± 1.8 [23.0, 26.6],1.1 ± 0.5 [0.6, 1.6],0.152
+Brain-Hack Interference,71.2 ± 3.6 [67.6, 74.8],28.8 ± 3.6 [25.2, 32.4],5.4 ± 1.2 [4.2, 6.6],<0.001
+ERa Attack (FC-PGD),58.3 ± 4.1 [54.2, 62.4],41.7 ± 4.1 [37.6, 45.8],25.2 ± 3.8 [21.4, 29.0],<0.001
+ERa Attack (FC-C&W),56.0 ± 4.0 [52.0, 60.0],44.0 ± 4.0 [40.0, 48.0],26.5 ± 3.7 [22.8, 30.2],<0.001
+ERa Attack (FC-JSMA),59.5 ± 4.1 [55.4, 63.6],40.5 ± 4.1 [36.4, 44.6],24.0 ± 3.6 [20.4, 27.6],<0.001
+Notes: Data is mean ± SD, brackets are 95% CI (n=350). Random seeds: [42, 123, 456, 789, 999], 5 repeats per condition. p-value is two-tailed t-test vs. no attack baseline, alpha=0.05.
